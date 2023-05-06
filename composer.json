@@ -1,0 +1,15 @@
+{
+    "require-dev": {
+        "squizlabs/php_codesniffer": "2.*",
+        "facebook/webdriver" : "*",
+        "phing/phing": "2.*",
+        "phpunit/phpunit": "^10.1"
+    },
+    "autoload": {
+        "psr-4": { 
+            "popp\\": ["src/"],
+            "popp\\test\\": ["test/"]
+        }
+    }
+
+}
